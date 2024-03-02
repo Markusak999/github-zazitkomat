@@ -11,23 +11,29 @@ body, html {
     width: 100%;
 }
 
+header {
+    width: 100%;
+    background-color: rgba(19, 49, 52, 0.194);
+    border-bottom: 1px solid #4141418f;
+}
+
 h1 {
     font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
     font-size: 45px;
     padding: 20px;
-    text-shadow: #f5f7f5 5px 5px 10px;
+    text-shadow: #f5f7f5 2px 2px 1px;
     color: rgb(9, 19, 15);
     rotate: -4deg;
 }
 
-/*       .....navigation.....     */
+/*       .....Navigation.....     */
 
 nav {
     display: inline-block; 
     text-align: right;
     padding: 15px;
-    position: absolute;    
+    position: relative;    
     width: 100%; 
 }
 
@@ -57,27 +63,28 @@ nav ul li :hover {
 
 /*       .....Login.....     */
 
-.login h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    font-size: 28px;
-    margin-bottom: 10px;
-    text-shadow: #f5f7f5 5px 5px 10px;
-    color: rgb(9, 19, 15);
-}
-
 .login {
     display: block;
     background-color: rgba(18, 64, 68, 0.724);
+    box-shadow: #181717ae 4px 4px 2px;
     width: 400px;
     padding: 26px 50px 50px 50px;
     border : 1px;
     border-radius: 20px;
     position:absolute;
     text-align: center;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.login h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-shadow: #f5f7f5 1px 1px 1px;
+    color: rgb(9, 19, 15);
 }
 
 form input {
@@ -131,7 +138,7 @@ form input:hover {
 }
 
 .forgot a:hover {
-    color: #0f04a1;
+    color: #ffffffc5;
     font-size: 14px;
     transition: 0.30s;
     cursor: pointer;
@@ -146,7 +153,6 @@ form input[type = "submit"] {
 form input[type = "submit"]:hover {
     background-color: rgba(67, 170, 32, 0.903);
     color: white;
-    font-size: 15px;
     font-weight: bold;
     cursor: pointer;
     transition: 0.30s;
