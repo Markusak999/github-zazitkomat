@@ -27,7 +27,20 @@ h1 {
     rotate: -4deg;
 }
 
-/*       .....Navigation.....     */
+.forgot a {  
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 12px;
+    background: #585656bd;
+    border-radius: 5px;
+    color: #030303;
+    transition: 0.30s;
+}
+    
+    /*       .....Navigation.....     */
 
 nav {
     display: inline-block; 
@@ -44,13 +57,13 @@ nav ul li {
 
 nav ul li a {
     color:#030303;
-    text-transform: uppercase;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
     text-decoration: none;
+    background-color:#585656bd;
     padding: 10px;
     font-size: 12px;
-    background: #585656bd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
     border-radius: 5px;
 }
 

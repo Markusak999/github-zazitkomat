@@ -97,16 +97,10 @@ nav ul li a:hover {
 }
 
 .social a img {
-    box-shadow: #3635358b 4px 4px 2px;
     border-radius: 4px;
     width: 50px;
     height: 50px;
     margin: 10px;
-}
-
-.social a img:hover {
-    box-shadow: #0303039f 5px 5px 2px;
-    transition: 0.30s;
 }
 
 /*       .....Form.....     */
